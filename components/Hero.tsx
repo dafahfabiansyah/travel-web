@@ -14,9 +14,9 @@ const Hero = () => {
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Air Terjun Putuk Truno</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature. We can help you on an adventure around the world in just one app
+        Kami ingin berada dalam setiap perjalanan Anda untuk mencari kepuasan melihat keindahan alam yang tak lekang oleh waktu. Kami dapat membantu Anda dalam petualangan di seluruh dunia hanya dalam satu aplikasi
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -34,19 +34,19 @@ const Hero = () => {
 
           <p className="bold-16 lg:bold-20 text-blue-70">
             198k
-            <span className="regular-16 lg:regular-20 ml-1">Excellent Reviews</span>
+            <span className="regular-16 lg:regular-20 ml-1">Ulasan Luar Biasa</span>
           </p>
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Download App" 
+            title="Unduh Aplikasi" 
             variant="btn_green" 
           />
           <Button 
             type="button" 
-            title="How we work?" 
+            title="cara kerja Hilink?" 
             icon="/play.svg"
             variant="btn_white_text" 
           />
@@ -58,19 +58,19 @@ const Hero = () => {
 
            <div className="flex flex-col">
             <div className="flexBetween">
-              <p className="regular-16 text-gray-20">Location</p>
+              <p className="regular-16 text-gray-20">Lokasi</p>
               <Image src="/close.svg" alt="close" width={24} height={24} />
             </div>
-            <p className="bold-20 text-white">Aguas Calientes</p>
+            <p className="bold-20 text-white">Pasuruan</p>
           </div>
 
           <div className="flexBetween">
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Distance</p>
+              <p className="regular-16 block text-gray-20">Jarak</p>
               <p className="bold-20 text-white">173.28 mi</p>
             </div>
             <div className="flex flex-col">
-              <p className="regular-16 block text-gray-20">Elevation</p>
+              <p className="regular-16 block text-gray-20">Ketinggian</p>
               <p className="bold-20 text-white">2.040 km</p>
             </div>
           </div>
